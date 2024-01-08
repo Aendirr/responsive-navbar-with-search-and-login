@@ -10,6 +10,6 @@
 
 # The copy option with the right click of the mouse has been disabled, and an iframe has been added for you to add another project or URL that you can easily drop instead of the photo.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+💙 Pls Follow 
 
 ![preview img](/preview.png)
