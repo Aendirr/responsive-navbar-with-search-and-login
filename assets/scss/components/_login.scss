@@ -1,6 +1,7 @@
 /*=============== LOGIN ===============*/
 .login{
-   &__form,
+   &__form{
+      user-select: none; //TO NOT COPY WITH RIGHT CLICK
    &__group{
       display: grid;
    }
