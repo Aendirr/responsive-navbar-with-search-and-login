@@ -42,3 +42,34 @@ loginBtn.addEventListener('click', () =>{
 loginClose.addEventListener('click', () =>{
    login.classList.remove('show-login')
 })
+
+
+
+// TO NOT COPY BY RIGHT CLICK
+document.addEventListener('contextmenu', function(e) {
+   e.preventDefault();
+});
+   
+document.addEventListener('selectstart', function(e) {
+   e.preventDefault();
+});
+// TO NOT COPY BY RIGHT CLICK
+
+
+
+//TO IFRAME
+document.addEventListener('DOMContentLoaded', function() {
+   // Find items with main-content ID
+   var mainContent = document.getElementById('main-content');
+
+   // Show project8 url by adding an iframe in main
+   var iframe = document.createElement('iframe');
+   iframe.src = 'http://ADD-TO-URL'; //ADD TO URL OR PROJECT FILE
+   iframe.style.width = '100%';
+   iframe.style.height = '100vh';
+
+   // Adding an iframe to main
+   mainContent.appendChild(iframe);
+});
+
+
